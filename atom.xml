@@ -4,7 +4,7 @@
   <title><![CDATA[Ling's]]></title>
   <link href="http://carrolineling.github.io/atom.xml" rel="self"/>
   <link href="http://carrolineling.github.io/"/>
-  <updated>2015-05-27T22:21:50+08:00</updated>
+  <updated>2015-05-27T22:27:18+08:00</updated>
   <id>http://carrolineling.github.io/</id>
   <author>
     <name><![CDATA[Chunhui.Ling]]></name>
@@ -23,7 +23,7 @@
 <ol>
   <li>add kramdown in Gemfile and install</li>
   <li>edit _config.yml, replace <strong>markdown: rdiscount</strong> to <strong>markdown: kramdown</strong></li>
-  <li>add script to source/_includes/custom/head.html</li>
+  <li>add <a href="http://blog.zhengdong.me/2012/12/19/latex-math-in-octopress">script</a> to source/_includes/custom/head.html</li>
 </ol>
 
 <h3 id="maxwells-equations">Maxwell’s Equations</h3>
