@@ -9,7 +9,7 @@
   <meta name="author" content="Chunhui.Ling">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="How to display math formula below? add kramdown in Gemfile and install edit _config.yml, replace markdown: rdiscount to markdown: kramdown add script &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,6 +30,36 @@
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
   
 
 </head>
@@ -58,6 +88,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/aboutme">About me</a></li>
 </ul>
 
 </nav>
@@ -65,6 +96,53 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/05/27/hello/">Hello, World!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-05-27T21:59:49+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:59 pm</span></time>
+        
+           | <a href="/blog/2015/05/27/hello/#disqus_thread"
+             data-disqus-identifier="http://carrolineling.github.io/blog/2015/05/27/hello/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2 id="how-to-display-math-formula-below">How to display math formula below?</h2>
+
+<ol>
+  <li>add kramdown in Gemfile and install</li>
+  <li>edit _config.yml, replace <strong>markdown: rdiscount</strong> to <strong>markdown: kramdown</strong></li>
+  <li>add script to source/_includes/custom/head.html</li>
+</ol>
+
+<h3 id="maxwells-equations">Maxwell’s Equations</h3>
+
+<p>\[  \begin{aligned}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \   \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho <br />
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} <br />
+\nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
+\]</p>
+
+</div>
+  
+  
+
+
+    </article>
   
   <div class="pagination">
     
@@ -77,6 +155,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/27/hello/">Hello, World!</a>
+      </li>
     
   </ul>
 </section>
