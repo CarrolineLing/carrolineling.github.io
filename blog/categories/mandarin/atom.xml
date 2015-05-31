@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ling's]]></title>
-  <link href="http://carrolineling.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Mandarin | Ling's]]></title>
+  <link href="http://carrolineling.github.io/blog/categories/mandarin/atom.xml" rel="self"/>
   <link href="http://carrolineling.github.io/"/>
   <updated>2015-05-31T15:41:04+08:00</updated>
   <id>http://carrolineling.github.io/</id>
@@ -72,30 +72,6 @@
 <p><strong>tā jīntiān chī le liǎng gè bīngqīlín。</strong></p>
 
 <p><strong>他今天吃了两个冰淇淋。(He has had two ice creams today.)</strong></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello, World!]]></title>
-    <link href="http://carrolineling.github.io/blog/2015/05/27/hello/"/>
-    <updated>2015-05-27T21:59:49+08:00</updated>
-    <id>http://carrolineling.github.io/blog/2015/05/27/hello</id>
-    <content type="html"><![CDATA[<h2 id="how-to-display-math-formula-below">How to display math formula below?</h2>
-
-<ol>
-  <li>add kramdown in Gemfile and install</li>
-  <li>edit _config.yml, replace <strong>markdown: rdiscount</strong> to <strong>markdown: kramdown</strong></li>
-  <li>add <a href="http://blog.zhengdong.me/2012/12/19/latex-math-in-octopress">script</a> to source/_includes/custom/head.html</li>
-</ol>
-
-<h3 id="maxwells-equations">Maxwell’s Equations</h3>
-
-<p>\[  \begin{aligned}
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \   \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho <br />
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} <br />
-\nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
-\]</p>
 
 ]]></content>
   </entry>
