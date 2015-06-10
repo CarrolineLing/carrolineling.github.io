@@ -9,7 +9,9 @@
   <meta name="author" content="Chunhui.Ling">
 
   
-  <meta name="description" content="Guide-for-writting-blog May 31st, 2015 3:45 pm Open the termianl. Change into the blog directory, cd Projects/Blog/octopress. rake new_page[“page &hellip;">
+  <meta name="description" content="Guide-for-writting-blog May 31st, 2015 3:45 pm Open the termianl.
+Change into the blog directory, cd Projects/Blog/octopress.
+rake new_page[&ldquo; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,36 +32,6 @@
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-<!-- MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
   
 
 </head>
@@ -109,15 +81,14 @@
   </header>
   
   <ol>
-  <li>Open the termianl.</li>
-  <li>
-    <p>Change into the blog directory, <strong>cd Projects/Blog/octopress</strong>.</p>
-  </li>
-  <li><strong>rake new_page[“page title”]</strong> to create a page; <strong>rake new_post[“post title”]</strong> to create a article. Both of them will show the markdown file path.</li>
-  <li>Open the markdown file with Mou, edit it and save.</li>
-  <li><strong>rake preview</strong> and open http://localhost:4000 to view the effect on localhost.</li>
-  <li>If without other problem, deploy it to github with <strong>rake deploy</strong>.</li>
+<li>Open the termianl.</li>
+<li><p>Change into the blog directory, <strong>cd Projects/Blog/octopress</strong>.</p></li>
+<li><p><strong>rake new_page[&ldquo;page title&rdquo;]</strong> to create a page; <strong>rake new_post[&ldquo;post title&rdquo;]</strong> to create a article. Both of them will show the markdown file path.</p></li>
+<li>Open the markdown file with Mou, edit it and save.</li>
+<li><strong>rake preview</strong> and open <a href="http://localhost:4000">http://localhost:4000</a> to view the effect on localhost.</li>
+<li>If without other problem, deploy it to github with <strong>rake deploy</strong>.</li>
 </ol>
+
 
   
     <footer>
@@ -134,8 +105,6 @@
       
         <div class="sharing">
   
-  
-  <div class="g-plusone" data-size="medium"></div>
   
   
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -160,6 +129,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/10/lecture-notes/">Lecture-notes</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/31/mandarin-grammar/">Mandarin-grammar</a>
@@ -218,14 +191,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
 
 
 

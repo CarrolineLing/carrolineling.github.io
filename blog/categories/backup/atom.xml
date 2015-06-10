@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Backup | Ling's]]></title>
+  <link href="http://carrolineling.github.io/blog/categories/backup/atom.xml" rel="self"/>
+  <link href="http://carrolineling.github.io/"/>
+  <updated>2015-06-10T12:58:41+08:00</updated>
+  <id>http://carrolineling.github.io/</id>
+  <author>
+    <name><![CDATA[Chunhui.Ling]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lecture-notes]]></title>
+    <link href="http://carrolineling.github.io/blog/2015/06/10/lecture-notes/"/>
+    <updated>2015-06-10T12:27:09+08:00</updated>
+    <id>http://carrolineling.github.io/blog/2015/06/10/lecture-notes</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="/assets/lecture-notes/L1.pdf">认识一下</a></li>
+<li><a href="/assets/lecture-notes/L2.pdf">吃点什么</a></li>
+<li><a href="/assets/lecture-notes/L3.pdf">在校园里</a></li>
+<li><a href="/assets/lecture-notes/L4.pdf">住的麻烦</a></li>
+<li>暂缺</li>
+<li><a href="/assets/lecture-notes/L6.pdf">做客</a></li>
+<li>暂缺</li>
+<li>暂缺</li>
+<li>暂缺</li>
+<li><a href="/assets/lecture-notes/L10.pdf">为了健康</a></li>
+<li>暂缺</li>
+<li><a href="assets/lecture-notes/L12.pdf">谈论朋友</a></li>
+<li><a href="assets/lecture-notes/L13.pdf">旅行归来</a></li>
+<li><a href="assets/lecture-notes/L14.pdf">体育健康</a></li>
+<li>暂缺</li>
+<li><a href="assets/lecture-notes/L16.pdf">理想的职业</a></li>
+<li>暂缺</li>
+<li><a href="assets/lecture-notes/L18.pdf">中国家庭</a></li>
+<li><a href="assets/lecture-notes/L19.pdf">看望病人</a></li>
+<li><a href="assets/lecture-notes/L20.pdf">生活习惯</a></li>
+<li><a href="assets/lecture-notes/L21.pdf">看比赛</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

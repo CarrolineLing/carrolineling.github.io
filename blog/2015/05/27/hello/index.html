@@ -9,7 +9,9 @@
   <meta name="author" content="Chunhui.Ling">
 
   
-  <meta name="description" content="How to display math formula below? add kramdown in Gemfile and install edit _config.yml, replace markdown: rdiscount to markdown: kramdown add script &hellip;">
+  <meta name="description" content="How to display math formula below? add kramdown in Gemfile and install
+edit _config.yml, replace markdown: rdiscount to markdown: kramdown
+add script &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,36 +32,6 @@
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-<!-- MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
   
 
 </head>
@@ -119,22 +91,22 @@
   </header>
 
 
-<div class="entry-content"><h2 id="how-to-display-math-formula-below">How to display math formula below?</h2>
+<div class="entry-content"><h2>How to display math formula below?</h2>
 
 <ol>
-  <li>add kramdown in Gemfile and install</li>
-  <li>edit _config.yml, replace <strong>markdown: rdiscount</strong> to <strong>markdown: kramdown</strong></li>
-  <li>add <a href="http://blog.zhengdong.me/2012/12/19/latex-math-in-octopress">script</a> to source/_includes/custom/head.html</li>
+<li>add kramdown in Gemfile and install</li>
+<li>edit _config.yml, replace <strong>markdown: rdiscount</strong> to <strong>markdown: kramdown</strong></li>
+<li>add <a href="http://blog.zhengdong.me/2012/12/19/latex-math-in-octopress">script</a> to source/_includes/custom/head.html</li>
 </ol>
 
-<h3 id="maxwells-equations">Maxwell’s Equations</h3>
+
+<h3>Maxwell’s Equations</h3>
 
 <p>\[  \begin{aligned}
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \   \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho <br />
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} <br />
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \   \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \
 \nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
 \]</p>
-
 </div>
 
 
@@ -158,8 +130,6 @@
     
       <div class="sharing">
   
-  
-  <div class="g-plusone" data-size="medium"></div>
   
   
     <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -189,6 +159,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/06/10/lecture-notes/">Lecture-notes</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/31/mandarin-grammar/">Mandarin-grammar</a>
@@ -247,14 +221,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
 
 
 
